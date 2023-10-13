@@ -15,10 +15,10 @@
 
         <meta-data
             android:name="THING_SMART_APPKEY"
-            android:value="${TUYA_SMART_APPKEY}" />
+            android:value="nvp75fhgqfm3mr77q8y9" />
         <meta-data
             android:name="THING_SMART_SECRET"
-            android:value="${TUYA_SMART_SECRET}" />
+            android:value="akes7qfeknv9thkqa7h74svp75tpsm8e" />
 
         <!--        Main        -->
         <activity
@@ -29,6 +29,7 @@
         <!--        User        -->
         <activity
             android:name=".user.main.UserFuncActivity"
+            android:exported="true"
             android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
