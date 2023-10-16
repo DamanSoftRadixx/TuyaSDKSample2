@@ -6,18 +6,9 @@ plugins {
 android {
     namespace 'com.thing.appbizsdk.sample'
     compileSdk 33
-    signingConfigs {
-        debug {
-            storeFile file("debug.keystore") //1.Replace with the added SHA256 debug certificate file containing your own information.
-            storePassword "android"
-            keyAlias "AndroidDebugKey"
-            keyPassword "android"
-            v1SigningEnabled true
-            v2SigningEnabled true
-        }
-    }
+
     defaultConfig {
-        applicationId "com.thing.appbizsdk.sample" //2.Use your own app ID
+        applicationId "com.sr.demo" //2.Use your own app ID
         minSdkVersion 23
         targetSdkVersion 33
         versionCode 1

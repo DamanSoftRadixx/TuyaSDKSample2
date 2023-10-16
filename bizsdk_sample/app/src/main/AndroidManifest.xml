@@ -16,14 +16,14 @@
         <!-- demo use only start -->
         <meta-data
             android:name="THING_SMART_APPKEY"
-            android:value="${TUYA_SMART_APPKEY}" />
+            android:value="nvp75fhgqfm3mr77q8y9" />
         <meta-data
             android:name="THING_SMART_SECRET"
-            android:value="${TUYA_SMART_SECRET}" />
+            android:value="akes7qfeknv9thkqa7h74svp75tpsm8e" />
 
         <meta-data
             android:name="PACKAGE_NAME"
-            android:value="${PACKAGE_NAME}" />
+            android:value="com.sr.demo" />
 
         <activity
             android:name="com.thingclips.smart.demo_login.base.activity.SplashActivity"
