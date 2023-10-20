@@ -81,8 +81,7 @@ class UserLoginActivity : AppCompatActivity(), View.OnClickListener {
                     }
                 }
                 if (ValidatorUtil.isEmail(strAccount)) {
-                    ThingHomeSdk.getUserInstance()
-                        .loginWithEmail(strCountryCode, strAccount, strPassword, callback)
+                    ThingHomeSdk.getUserInstance().loginWithEmail(strCountryCode, strAccount, strPassword, callback)
                 } else {
                     ThingHomeSdk.getUserInstance()
                         .loginWithPhonePassword(strCountryCode, strAccount, strPassword, callback)

@@ -33,7 +33,7 @@ import com.uuzuche.lib_zxing.activity.ZXingLibrary
 class BaseApplication : Application() {
     override fun onCreate() {
         super.onCreate()
-
+        RequestSignUtils.main();
         ThingHomeSdk.init(this)
         ThingHomeSdk.setDebugMode(true)
         ThingOptimusSdk.init(this)
